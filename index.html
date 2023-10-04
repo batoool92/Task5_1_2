@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Assets/css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="slider_conteiner">
+        <button class="slider_button" id="left_button">&#8249;</button>
+
+        <button class="slider_button" id="right_button">&#8250;</button>
+        <ul class="slides_container">
+            <li class="slide" id="slide1"><h1>1</h1></li>
+            <li class="slide" id="slide2"><h1>2</h1></li>
+            <li class="slide" id="slide3"><h1>3</h1></li>
+            <li class="slide" id="slide4"><h1>4</h1></li>
+        </ul>
+        <div class="indicators_container">
+            <button class="indicator active" id="indicator1" onclick="showSlide(1)"></button>
+            <button class="indicator" id="indicator2" onclick="showSlide(2)"></button>
+            <button class="indicator" id="indicator3" onclick="showSlide(3)"></button>
+            <button class="indicator" id="indicator4" onclick="showSlide(4)"></button>
+        </div>
+    </div>
+    <script src="./Assets/js/index.js"></script>
+</body>
+
+</html>
